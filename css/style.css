@@ -1,0 +1,392 @@
+body{
+    font-size: 16px;
+    color:black;
+    background-color: #ffa700;
+    
+}
+ul li a{
+ display: inline-block;
+}
+ul li a.active{
+    color: black;
+}
+/* .nav-item > nav-link{
+    color: black;
+} */
+
+.navbar-brand{
+    padding-top: 10px;
+}
+.new-bg{
+    background-color: #0202029e;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 0.75;
+    padding: 0px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand h1:hover{
+    font-style: italic;
+}
+
+
+#menu-card, #exclusive-card, #scheduled-card{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#menu-card:hover, #exclusive-card:hover, #scheduled-card:hover{
+    box-shadow: 8px 8px 10px black;
+}
+
+#menu-card{
+ background: url('../images/f1 - Copy.png');
+ background-position: center;
+
+}
+#exclusive-card{
+    background: url('../images/f2 - Copy.jpg');
+    background-position: center; 
+}
+
+#scheduled-card{
+    background: url('../images/Chocolate-Milkshake-Recipe2.jpg');
+ background-position: center;
+}
+#menu-card span, #exclusive-card span, #scheduled-card span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 1.6em;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+.panel-footer{
+    
+    padding-top:40px;
+    padding-bottom:35px;
+    background-color: #222;
+    border-top: 0px;
+
+}
+
+#hours, #address{
+    line-height: 2;
+    color: white;
+}
+#hours span, #address span{
+    font-size: 1.3em;
+}
+#address p{
+    color: greenyellow;
+    font-size: 0.8em;
+    list-style: 1.7em;
+}
+#ratings{
+    font-style: italic;
+     color: white;
+}
+.menu-item{
+    margin-bottom: 25px;
+    margin-left:auto ;
+    margin-top:20px ;
+    margin-right: auto ;
+    width: 50%;
+}
+
+menu-item-content{
+    width: 50%;
+    margin: 0 auto;
+} 
+.menu-item hr{
+    width: 80%;
+}
+.menu-item .menu-item-price{
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-photo{
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+
+}
+.menu-item-photo div{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    background-color: green;
+    text-align: center;
+}
+menu-item-description{
+    padding-right: 30px;
+}
+.menu-item-title{
+    margin: 0px 0px 10px;
+    color: green;
+}
+.menu-item-details{
+    font-size: 0.85em;
+    font-style: italic;
+    color: black;
+}
+#innnk{
+    color:#ffa700;
+}
+.header-text-holder{
+    text-align: center;
+}
+.blog{
+    background-image: url(../images/a-young-woman-adding-vegetables-to-a-saucepan.jpg);
+    
+}
+.burul{
+    background-image: url(../images/so-fresh-and-tasty!.jpg);
+    height: 300px;
+}
+.service_board{
+    background-image: url(../images/veggies-yoummy-meal-its-gonna-be.jpg);
+    height: auto;
+    position: unset;
+}
+.menu_board{
+    background-image: url(../images/MENUchop.jpg);
+    position: absolute;
+    height: 300px;
+}
+.about_board{
+    background-image: url(../images/service.jpg);
+    position: absolute;
+    height: auto;
+}
+.stretched{
+    background-image: url(../images/ink.png);
+    height: auto;
+}
+
+/* .bg2{
+    background-image: url(../images/bg2.jpg);
+    height: 250px;
+} */
+.contact{
+    border-radius: 20px;
+    color: white;
+
+}
+.pad-if{
+    padding: 0px;
+}
+.if{
+    max-width: 2000px;
+    height: 500px;
+}
+.myForm{
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+    background-color: orange;
+  }
+/*
+BLOG CSS
+*/
+.my_card:hover{
+    box-shadow: 2px 2px 12px black;
+    
+
+}
+.home-body-content{
+padding-top: 100px;
+padding-bottom: 50px;
+}
+.home-body-content .my_card{
+    margin-bottom: 25px;
+}
+.menu-design{
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu-content{
+    padding-top: 100px;
+padding-bottom: 300px;
+width: 100%;
+}
+.menu-content h1{
+    text-align: center;
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.copy{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+   font-style: italic;
+   margin: 0px;
+}
+
+.youtube{
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    height: auto;
+    max-width: 100%;
+
+}
+#tube{
+padding: 10px;
+}
+/* About Page */
+
+.text-anime{
+    position: relative;
+    font-size: 14vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw gray;
+    text-transform: uppercase;
+    
+}
+.text-anime::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color:#ffa700;
+    -webkit-text-stroke-width: 0vw #383d52;
+    border-right: 2px solid white;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgb(255 165 0 / 42%);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+.max-text:hover{
+    color: white;
+    font-size: 45px;
+}
+
+#contact-text-size-list{
+    font-size: 30px;
+
+}
+.contact-offset{
+    margin: 0px;
+    padding: 0px;
+}
+.sec{
+    margin: 0px;
+}
+.head_color h5{
+    color: white;
+}
+
+/*cart-size*/
+.cart-size{
+    size: 30px;
+    color: white;
+}
+
+.cart-hover:hover {
+    background-color: orange;
+    
+
+}
+.cart-hovers:hover {
+    background-color:red;
+    
+
+}
+/*FLIP*/
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width:  auto;
+    height: 350px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgb(180, 181, 182);
+    color: white;
+    transform: rotateY(180deg);
+  }
